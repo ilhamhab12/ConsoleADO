@@ -1,0 +1,13 @@
+C:\Users\Habibie\Documents\Visual Studio 2015\Projects\Bootcamp\Bootcamp.CRUD\Bootcamp.CRUD\bin\Debug\Bootcamp.CRUD.exe.config
+C:\Users\Habibie\Documents\Visual Studio 2015\Projects\Bootcamp\Bootcamp.CRUD\Bootcamp.CRUD\bin\Debug\Bootcamp.CRUD.exe
+C:\Users\Habibie\Documents\Visual Studio 2015\Projects\Bootcamp\Bootcamp.CRUD\Bootcamp.CRUD\bin\Debug\Bootcamp.CRUD.pdb
+C:\Users\Habibie\Documents\Visual Studio 2015\Projects\Bootcamp\Bootcamp.CRUD\Bootcamp.CRUD\bin\Debug\EntityFramework.dll
+C:\Users\Habibie\Documents\Visual Studio 2015\Projects\Bootcamp\Bootcamp.CRUD\Bootcamp.CRUD\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Habibie\Documents\Visual Studio 2015\Projects\Bootcamp\Bootcamp.CRUD\Bootcamp.CRUD\bin\Debug\EntityFramework.xml
+C:\Users\Habibie\Documents\Visual Studio 2015\Projects\Bootcamp\Bootcamp.CRUD\Bootcamp.CRUD\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Habibie\Documents\Visual Studio 2015\Projects\Bootcamp\Bootcamp.CRUD\Bootcamp.CRUD\obj\Debug\Bootcamp.CRUD.csprojResolveAssemblyReference.cache
+C:\Users\Habibie\Documents\Visual Studio 2015\Projects\Bootcamp\Bootcamp.CRUD\Bootcamp.CRUD\obj\Debug\Bootcamp.CRUD.exe
+C:\Users\Habibie\Documents\Visual Studio 2015\Projects\Bootcamp\Bootcamp.CRUD\Bootcamp.CRUD\obj\Debug\Bootcamp.CRUD.pdb
+C:\Users\Habibie\Documents\Visual Studio 2015\Projects\Bootcamp\Bootcamp.CRUD\Bootcamp.CRUD\obj\Debug\Bootcamp.CRUD.Migrations.addingModelFirst.resources
+C:\Users\Habibie\Documents\Visual Studio 2015\Projects\Bootcamp\Bootcamp.CRUD\Bootcamp.CRUD\obj\Debug\Bootcamp.CRUD.csproj.GenerateResource.Cache
+C:\Users\Habibie\Documents\Visual Studio 2015\Projects\Bootcamp\Bootcamp.CRUD\Bootcamp.CRUD\obj\Debug\Bootcamp.CRUD.Migrations.addingStatusDelete.resources
