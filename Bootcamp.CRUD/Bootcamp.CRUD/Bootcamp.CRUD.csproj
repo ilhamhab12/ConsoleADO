@@ -54,6 +54,9 @@
   <ItemGroup>
     <Compile Include="Context\MyContext.cs" />
     <Compile Include="Core\BaseModel.cs" />
+    <Compile Include="Controler\ManageItem.cs" />
+    <Compile Include="Controler\ManageSupplier.cs" />
+    <Compile Include="Menu\Menu.cs" />
     <Compile Include="Migrations\201901230749285_addingModelFirst.cs" />
     <Compile Include="Migrations\201901230749285_addingModelFirst.Designer.cs">
       <DependentUpon>201901230749285_addingModelFirst.cs</DependentUpon>
@@ -62,7 +65,12 @@
     <Compile Include="Migrations\201901231002449_addingStatusDelete.Designer.cs">
       <DependentUpon>201901231002449_addingStatusDelete.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201901240105015_addingMigrationItem.cs" />
+    <Compile Include="Migrations\201901240105015_addingMigrationItem.Designer.cs">
+      <DependentUpon>201901240105015_addingMigrationItem.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Model\Item.cs" />
     <Compile Include="Model\Supplier.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -77,6 +85,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201901231002449_addingStatusDelete.resx">
       <DependentUpon>201901231002449_addingStatusDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901240105015_addingMigrationItem.resx">
+      <DependentUpon>201901240105015_addingMigrationItem.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
