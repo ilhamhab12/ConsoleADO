@@ -92,13 +92,13 @@ namespace Bootcamp.CRUD.Controler
                 Console.Read();
 
 
-                Console.WriteLine("----------------------------------------------------");
+                Console.WriteLine("-------------------------------------------------------");
                 Console.WriteLine("                  TRRANSACTION ID  " + getTransaction);
                 Console.WriteLine(getTransactionDetail.TransactionDate.Date);
                 Console.WriteLine(getTransactionDetail.TransactionDate.TimeOfDay);
-                Console.WriteLine("----------------------------------------------------");
-                Console.WriteLine("Name             Quantity        Price         Total");
-                Console.WriteLine("----------------------------------------------------");
+                Console.WriteLine("-------------------------------------------------------");
+                Console.WriteLine("Name           Quantity          Price            Total");
+                Console.WriteLine("-------------------------------------------------------");
                 var getDatatoDisplay = _context.TransactionItems.Where(x => x.Transactions.Id == getTransactionDetail.Id).ToList();
                 //var getDatatoDisplay = _context.Items.Where(x => x.IsDelete == false).ToList();
                 //_context.Transactions.Max(x => x.Id)
@@ -107,13 +107,13 @@ namespace Bootcamp.CRUD.Controler
 
                 foreach (var tampilin in getDatatoDisplay)
                 {
-                    Console.WriteLine("" + tampilin.Items.Name + "\t\t" + tampilin.Quantity + "\t" + tampilin.Items.Price + "\t" + total);
+                    Console.WriteLine("" + tampilin.Items.Name + "\t\t" + tampilin.Quantity + "\t\t" + tampilin.Items.Price + "\t\t" + total);
                 }
-                Console.WriteLine("----------------------------------------------------");
+                Console.WriteLine("-------------------------------------------------------");
                 Console.WriteLine("Total Price : " + total);
                 Console.WriteLine("Balance     : " + balance);
                 Console.WriteLine("Exchange    : " + (balance - total));
-                Console.WriteLine("----------------------------------------------------");
+                Console.WriteLine("-------------------------------------------------------");
                 Console.ReadLine();
                 Console.Read();
                 //var getDatatoDisplay = _context.Transactions.Where(x => x.IsDelete == false).ToList();

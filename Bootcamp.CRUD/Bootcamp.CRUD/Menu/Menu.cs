@@ -13,10 +13,10 @@ namespace Bootcamp.CRUD
         public void Section()
         {
             Console.WriteLine("============ Manage Table =============");
-            Console.WriteLine("1. Manage Supplier");
-            Console.WriteLine("2. Manage Item");
-            Console.WriteLine("3. Manage Transaction");
-            Console.WriteLine("4. Struck Transaction");
+            Console.WriteLine("1. Supplier");
+            Console.WriteLine("2. Item");
+            Console.WriteLine("3. Transaction");
+            //Console.WriteLine("4. Struck Transaction");
             Console.WriteLine("=======================================");
             Console.Write("Going to : ");
             int chance = Convert.ToInt32(Console.ReadLine());
@@ -35,13 +35,13 @@ namespace Bootcamp.CRUD
                     ManageTransaction transaction = new ManageTransaction();
                     transaction.MenuTransaction();
                     break;
-                case 4:
-                    Console.WriteLine("Insert Id Transaction");
-                    Console.Read();
+                //case 4:
+                //    Console.WriteLine("Insert Id Transaction");
+                //    Console.Read();
 
-                    //ManageTransactionItem transactionitem = new ManageTransactionItem();
-                    //transactionitem.MenuTransactionItem();
-                    break;
+                //    //ManageTransactionItem transactionitem = new ManageTransactionItem();
+                //    //transactionitem.MenuTransactionItem();
+                //    break;
                 default:
                     Console.Write("Please Try Again");
                     Console.Read();
