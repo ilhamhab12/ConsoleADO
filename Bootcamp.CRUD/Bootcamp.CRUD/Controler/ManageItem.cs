@@ -216,24 +216,25 @@ namespace Bootcamp.CRUD
                     {
                         foreach (var tampilin in getDatatoDisplay)
                         {
-                            /* if (tampilin.Supplier.Name == null)
-                             {
-                                 Console.WriteLine("============================");
-                                 Console.WriteLine("Name      : " + tampilin.Name);
-                                 Console.WriteLine("Price     : " + tampilin.Price);
-                                 Console.WriteLine("Stock     : " + tampilin.Stok);
-                                 Console.WriteLine("No Supplier  : ");
-                                 Console.WriteLine("============================");
-                             }
-                             else
-                             */
-                            
+                            //if (tampilin.Supplier.Name == null)
+                            //{
+                            //    Console.WriteLine("============================");
+                            //    Console.WriteLine("Name      : " + tampilin.Name);
+                            //    Console.WriteLine("Price     : " + tampilin.Price);
+                            //    Console.WriteLine("Stock     : " + tampilin.Stok);
+                            //    Console.WriteLine("No Supplier  : " + null);
+                            //    Console.WriteLine("============================");
+                            //}
+                            //else
+                            //{
+
                                 Console.WriteLine("============================");
                                 Console.WriteLine("Name      : " + tampilin.Name);
                                 Console.WriteLine("Price     : " + tampilin.Price);
                                 Console.WriteLine("Stock     : " + tampilin.Stok);
-                                //Console.WriteLine("Supplier  : " + tampilin.Supplier.Name);
+                               // Console.WriteLine("Supplier  : " + tampilin.Supplier.Name);
                                 Console.WriteLine("============================");
+                           // }
                             
                         }
                         Console.WriteLine("");

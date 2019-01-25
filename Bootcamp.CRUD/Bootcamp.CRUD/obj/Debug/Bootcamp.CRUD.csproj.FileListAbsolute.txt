@@ -12,3 +12,5 @@ C:\Users\Habibie\Documents\Visual Studio 2015\Projects\Bootcamp\Bootcamp.CRUD\Bo
 C:\Users\Habibie\Documents\Visual Studio 2015\Projects\Bootcamp\Bootcamp.CRUD\Bootcamp.CRUD\obj\Debug\Bootcamp.CRUD.csproj.GenerateResource.Cache
 C:\Users\Habibie\Documents\Visual Studio 2015\Projects\Bootcamp\Bootcamp.CRUD\Bootcamp.CRUD\obj\Debug\Bootcamp.CRUD.Migrations.addingStatusDelete.resources
 C:\Users\Habibie\Documents\Visual Studio 2015\Projects\Bootcamp\Bootcamp.CRUD\Bootcamp.CRUD\obj\Debug\Bootcamp.CRUD.Migrations.addingMigrationItem.resources
+C:\Users\Habibie\Documents\Visual Studio 2015\Projects\Bootcamp\Bootcamp.CRUD\Bootcamp.CRUD\obj\Debug\Bootcamp.CRUD.Migrations.addingMigrationTransaction.resources
+C:\Users\Habibie\Documents\Visual Studio 2015\Projects\Bootcamp\Bootcamp.CRUD\Bootcamp.CRUD\obj\Debug\Bootcamp.CRUD.Migrations.addingMigrationCekError.resources

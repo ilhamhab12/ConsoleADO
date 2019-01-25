@@ -53,6 +53,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\MyContext.cs" />
+    <Compile Include="Controler\ManageTransaction.cs" />
+    <Compile Include="Controler\ManageTransactionItem.cs" />
     <Compile Include="Core\BaseModel.cs" />
     <Compile Include="Controler\ManageItem.cs" />
     <Compile Include="Controler\ManageSupplier.cs" />
@@ -69,9 +71,19 @@
     <Compile Include="Migrations\201901240105015_addingMigrationItem.Designer.cs">
       <DependentUpon>201901240105015_addingMigrationItem.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201901240425588_addingMigrationTransaction.cs" />
+    <Compile Include="Migrations\201901240425588_addingMigrationTransaction.Designer.cs">
+      <DependentUpon>201901240425588_addingMigrationTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901240934416_addingMigrationCekError.cs" />
+    <Compile Include="Migrations\201901240934416_addingMigrationCekError.Designer.cs">
+      <DependentUpon>201901240934416_addingMigrationCekError.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Item.cs" />
     <Compile Include="Model\Supplier.cs" />
+    <Compile Include="Model\Transaction.cs" />
+    <Compile Include="Model\TransactionItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -89,6 +101,15 @@
     <EmbeddedResource Include="Migrations\201901240105015_addingMigrationItem.resx">
       <DependentUpon>201901240105015_addingMigrationItem.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901240425588_addingMigrationTransaction.resx">
+      <DependentUpon>201901240425588_addingMigrationTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901240934416_addingMigrationCekError.resx">
+      <DependentUpon>201901240934416_addingMigrationCekError.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Trigger\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
